@@ -1,0 +1,140 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#header_navbar {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 15%;
+
+}
+#header_list {
+    display: flex;
+    flex-direction: row;
+    color:rgb(54, 54, 54);
+    font-size: small;
+    list-style-type: none;
+    
+}
+#About {
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+#Store {
+    padding-left: 25px;
+    padding-top: 10px;
+}
+#Gmail {
+    padding-left: 1500px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+#Images {
+    padding-right: 20px;
+    padding-top: 10px;
+}
+#Gridmenu {
+    padding-right: 20px;
+}
+#Gridimage {
+    height: 20px;
+    width: 20px;
+    padding-top: 10px;
+
+}
+#Sign {
+    width: 80px;
+    color: white;
+    background-color: #4385f7;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8%;
+    
+}
+#magnifying-glass {
+    height: 13px;
+    width: 13px;
+    position: fixed;
+    margin-left: 690px;
+    margin-top: 15px;
+}
+#microphone {
+    height: 20px;
+    width: 14px;
+    position: fixed;
+    margin-left: 1200px;
+    margin-top: -32px;
+}
+.logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 92px;
+    margin-top: 137px;
+}
+.searchbar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    height: 3.25em;
+    width: 42em;
+    border-radius: 25px; 
+    border-color: gray;
+    border-width: thin;
+
+}
+#search {
+    height: 40px;
+    width: 130px;
+    margin-left: 790px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+#feelinglucky {
+    height: 40px;
+    width: 130px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+#footer-navbar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: f2f2f2;
+    height: 40px;
+    width: 100%;
+}
+#footer_list {
+    display: flex;
+    flex-direction: row;
+    color:rgb(54, 54, 54);
+    font-size: 15px;
+    list-style-type: none;
+}
+#Advertising { 
+    flex: start;
+}
+#Business {
+    padding-left: 25px;
+}
+#How_Search_Works {
+    padding-left: 25px;
+
+}
+#Privacy {
+    padding-left: 1330px;
+}
+#Terms {
+    padding-left: 25px;
+}
+#Settings {
+    padding-left: 25px;
+}
